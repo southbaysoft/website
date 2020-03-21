@@ -3,11 +3,39 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  font-size: 16px;
   text-align: center;
   font-family: 'Helvetica', 'Arial', sans-serif;
+  overflow: hidden;
 }
 
 h1 {
-  margin: 2em 0;
+  font-size: 3rem;
+  margin: 1em 0;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+img.hero {
+  height: 300px;
+  max-width: 90%;
+}
+
+footer {
+  position: absolute;
+  height: 20px;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+footer span {
+  color: #e25555;
 }
