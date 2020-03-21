@@ -16,11 +16,31 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin: 1em 0;
+  margin: .5em 0;
 }
 
 h2 {
   margin-bottom: 1em;
+  position: relative;
+}
+
+h2 div {
+  font-size: 40%;
+  position: absolute;
+  margin-left: 5px;
+  text-align: center;
+  display: inline;
+  top: -20px;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(228, 134, 46);
+  border-radius: 50%;
+}
+
+h2 span {
+  color: #fff;
+  margin-top: .65em;
+  display: block;
 }
 
 img.hero {
@@ -34,6 +54,7 @@ footer {
   bottom: 20px;
   left: 0;
   right: 0;
+  font-size: .85rem; 
 }
 
 footer span {
