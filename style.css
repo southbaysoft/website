@@ -5,45 +5,54 @@
 
 html, body {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
   font-size: 16px;
   text-align: center;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  overflow: hidden;
 }
 
 h1 {
-  font-size: 3rem;
-  margin: .5em 0;
+  font-size: 2.5rem;
+  margin: .5em 0 1em 0;
 }
 
 h2 {
   margin-bottom: 1em;
   position: relative;
+  display: inline;
+  font-size: 1.2rem;
+}
+
+div {
+  position: relative;
 }
 
 h2 div {
-  font-size: 40%;
   position: absolute;
   margin-left: 5px;
   text-align: center;
   display: inline;
-  top: -20px;
-  width: 35px;
-  height: 35px;
+  right: -25px;
+  top: -25px;
+  width: 34px;
+  height: 34px;
   background-color: rgb(228, 134, 46);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
 }
 
 h2 span {
+  font-size: 50%;
   color: #fff;
-  margin-top: .65em;
   display: block;
 }
 
 img.hero {
+  margin-top: 1em;
   height: 300px;
   max-width: 90%;
 }
@@ -51,7 +60,7 @@ img.hero {
 footer {
   position: absolute;
   height: 20px;
-  bottom: 20px;
+  bottom: 10px;
   left: 0;
   right: 0;
   font-size: .85rem; 
